@@ -1,0 +1,21 @@
+Feature,SHAP Importance
+duration,2.2741497
+emp.var.rate,0.9512727
+nr.employed,0.4718891
+euribor3m,0.2826736
+cons.price.idx,0.1735079
+age,0.16064197
+campaign,0.14075348
+cons.conf.idx,0.13355744
+month_may,0.12165832
+pdays,0.10403497
+default_unknown,0.09214886
+contact_telephone,0.07331675
+education_university.degree,0.07076786
+previous,0.06466209
+month_oct,0.04463707
+day_of_week_mon,0.040791728
+job_blue-collar,0.034180116
+housing_yes,0.032790735
+poutcome_success,0.03152268
+day_of_week_wed,0.031251837

@@ -1,0 +1,25 @@
+Model,Actual,Predicted,Count
+Logistic Regression,0,0,10681
+Logistic Regression,0,1,284
+Logistic Regression,1,0,804
+Logistic Regression,1,1,588
+Naive Bayes,0,0,8218
+Naive Bayes,0,1,2747
+Naive Bayes,1,0,257
+Naive Bayes,1,1,1135
+KNN,0,0,10678
+KNN,0,1,287
+KNN,1,0,935
+KNN,1,1,457
+Decision Tree,0,0,10263
+Decision Tree,0,1,702
+Decision Tree,1,0,657
+Decision Tree,1,1,735
+Random Forest,0,0,10639
+Random Forest,0,1,326
+Random Forest,1,0,720
+Random Forest,1,1,672
+XGBoost,0,0,10576
+XGBoost,0,1,389
+XGBoost,1,0,645
+XGBoost,1,1,747

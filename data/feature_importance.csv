@@ -1,0 +1,107 @@
+Feature,Importance,Model
+age,0.08568705727489762,Random Forest
+duration,0.2990592498770375,Random Forest
+campaign,0.042063590408584144,Random Forest
+pdays,0.029714041368635785,Random Forest
+previous,0.013916330485871068,Random Forest
+emp.var.rate,0.02214576988260984,Random Forest
+cons.price.idx,0.023948556640675904,Random Forest
+cons.conf.idx,0.02654032682381165,Random Forest
+euribor3m,0.09581560633952771,Random Forest
+nr.employed,0.05734674877815253,Random Forest
+job_blue-collar,0.009097426488937556,Random Forest
+job_entrepreneur,0.004081443856468457,Random Forest
+job_housemaid,0.003795503136567026,Random Forest
+job_management,0.007718084829484887,Random Forest
+job_retired,0.006500782408351574,Random Forest
+job_self-employed,0.0046935008173242055,Random Forest
+job_services,0.006701678682402679,Random Forest
+job_student,0.004431155185936091,Random Forest
+job_technician,0.011553047121600876,Random Forest
+job_unemployed,0.004012062125903425,Random Forest
+job_unknown,0.0018566791664103902,Random Forest
+marital_married,0.013415099922393366,Random Forest
+marital_single,0.011909385981965722,Random Forest
+marital_unknown,0.000600388964078584,Random Forest
+education_basic.6y,0.0048157008047350625,Random Forest
+education_basic.9y,0.007936911251553427,Random Forest
+education_high.school,0.01178749502772984,Random Forest
+education_illiterate,0.0003094930073837922,Random Forest
+education_professional.course,0.009107827499653524,Random Forest
+education_university.degree,0.01259398446106331,Random Forest
+education_unknown,0.0053774725839906765,Random Forest
+default_unknown,0.008810106737897233,Random Forest
+default_yes,6.042471224788554e-08,Random Forest
+housing_unknown,0.0025067800684072878,Random Forest
+housing_yes,0.019465907000035074,Random Forest
+loan_unknown,0.002554312395393548,Random Forest
+loan_yes,0.012925140765659381,Random Forest
+contact_telephone,0.010502966672891629,Random Forest
+month_aug,0.0026454691619596247,Random Forest
+month_dec,0.0008162724720165496,Random Forest
+month_jul,0.0026993829207570597,Random Forest
+month_jun,0.0026774917936497784,Random Forest
+month_mar,0.004416960987462949,Random Forest
+month_may,0.004311648778744662,Random Forest
+month_nov,0.0022588279971701747,Random Forest
+month_oct,0.0052136923367054385,Random Forest
+month_sep,0.0023448766032345054,Random Forest
+day_of_week_mon,0.012536382125454998,Random Forest
+day_of_week_thu,0.012142820805315958,Random Forest
+day_of_week_tue,0.01110376222977439,Random Forest
+day_of_week_wed,0.011614539632299796,Random Forest
+poutcome_nonexistent,0.008724443739785735,Random Forest
+poutcome_success,0.021195753146933734,Random Forest
+age,0.00831430684775114,XGBoost
+duration,0.07034973055124283,XGBoost
+campaign,0.007262558676302433,XGBoost
+pdays,0.02783108316361904,XGBoost
+previous,0.008806146681308746,XGBoost
+emp.var.rate,0.053355202078819275,XGBoost
+cons.price.idx,0.013869086280465126,XGBoost
+cons.conf.idx,0.02921169251203537,XGBoost
+euribor3m,0.03290659934282303,XGBoost
+nr.employed,0.32683056592941284,XGBoost
+job_blue-collar,0.013324807398021221,XGBoost
+job_entrepreneur,0.007330715656280518,XGBoost
+job_housemaid,0.006121899001300335,XGBoost
+job_management,0.006959151476621628,XGBoost
+job_retired,0.008040615357458591,XGBoost
+job_self-employed,0.006408198270946741,XGBoost
+job_services,0.007940134033560753,XGBoost
+job_student,0.004845392890274525,XGBoost
+job_technician,0.007273332681506872,XGBoost
+job_unemployed,0.006205944810062647,XGBoost
+job_unknown,0.007960319519042969,XGBoost
+marital_married,0.006629814859479666,XGBoost
+marital_single,0.00730076152831316,XGBoost
+marital_unknown,0.006378331687301397,XGBoost
+education_basic.6y,0.007945374585688114,XGBoost
+education_basic.9y,0.008522775024175644,XGBoost
+education_high.school,0.006465032231062651,XGBoost
+education_illiterate,0.0,XGBoost
+education_professional.course,0.007662798743695021,XGBoost
+education_university.degree,0.00925075076520443,XGBoost
+education_unknown,0.007243873551487923,XGBoost
+default_unknown,0.012297912500798702,XGBoost
+default_yes,0.0,XGBoost
+housing_unknown,0.007046809885650873,XGBoost
+housing_yes,0.006339968182146549,XGBoost
+loan_unknown,0.007581816054880619,XGBoost
+loan_yes,0.0072897206991910934,XGBoost
+contact_telephone,0.01885073073208332,XGBoost
+month_aug,0.010126078501343727,XGBoost
+month_dec,0.003948637284338474,XGBoost
+month_jul,0.008544054813683033,XGBoost
+month_jun,0.006590771488845348,XGBoost
+month_mar,0.02827119268476963,XGBoost
+month_may,0.023985227569937706,XGBoost
+month_nov,0.012362552806735039,XGBoost
+month_oct,0.041385527700185776,XGBoost
+month_sep,0.007744404021650553,XGBoost
+day_of_week_mon,0.012451999820768833,XGBoost
+day_of_week_thu,0.0076523432508111,XGBoost
+day_of_week_tue,0.007856475189328194,XGBoost
+day_of_week_wed,0.008585173636674881,XGBoost
+poutcome_nonexistent,0.009931961074471474,XGBoost
+poutcome_success,0.022609572857618332,XGBoost
