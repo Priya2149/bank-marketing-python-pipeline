@@ -22,16 +22,32 @@ This project demonstrates:
 ---
 
 ## 📁 Repository Structure
+
 ├── data/
-│ └── bank-additional-full.csv # Raw dataset
+│   ├── bank-additional-full.csv          # Raw dataset
+│   ├── bank_marketing_bi_raw.csv         # Cleaned dataset for Power BI
+│   ├── age_effect.csv                    # Subscription analysis by age bins
+│   ├── job_effect.csv                    # Subscription analysis by job
+│   ├── duration_effect.csv               # Call duration impact analysis
+│   ├── contact_duration.csv              # Duration by contact method
+│   ├── feature_importance.csv            # Feature importance from ML models
+│   ├── shap_feature_importance.csv       # SHAP values export
+│   ├── confusion_matrices.csv            # Model confusion matrix data
+│   ├── model_performance.csv             # Pre-tuning model metrics
+│   ├── tuned_model_performance.csv       # Tuned RF/XGB performance metrics
+│   └── roc_curves.csv                    # ROC curve data for BI visuals
+│
 ├── notebook/
-│ └── bank_marketing_pipeline.ipynb # Full analysis & ML workflow
+│   └── bank_marketing_pipeline.ipynb     # Full analysis & ML workflow
+│
 ├── powerbi/
-│ └── bank_marketing_dashboard.pbix # Power BI Dashboard
+│   └── bank_marketing_dashboard.pbix     # Power BI dashboard (3 pages)
+│
 ├── images/
-│ ├── dashboard_page1.png
-│ ├── dashboard_page2.png
-│ └── model_results.png
+│   ├── page1.jpg                         # Dashboard page 1
+│   ├── page2.jpg                         # Dashboard page 2
+│   └── page3.jpg                         # Dashboard page 3
+│
 └── README.md
 
 ---
