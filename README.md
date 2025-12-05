@@ -115,10 +115,11 @@ Used to identify how individual features impact predictions.
 
 ## 📊 Power BI Dashboard
 
-A professional two-page business dashboard was built:
+A professional business dashboard was built:
 
 ### **Page 1 — Marketing Campaign Insights**
-![Dashboard Page 3](images/page1.jpg)
+![Dashboard Page 1](images/page1.jpg)
+
 - KPIs: Subscription rate, total customers, total subscribed  
 - Subscription rate by:  
   - Job  
@@ -129,7 +130,8 @@ A professional two-page business dashboard was built:
 - Campaign performance overview  
 
 ### **Page 2 — ML Model Performance**
-![Dashboard Page 3](images/page2.jpg)
+![Dashboard Page 2](images/page2.jpg)
+
 - Model comparison table  
 - AUC comparison  
 - ROC curve visual  
@@ -140,6 +142,7 @@ A professional two-page business dashboard was built:
 
 ### Page 3 — Customer Insights & Model Explainability
 ![Dashboard Page 3](images/page3.jpg)
+
 - SHAP feature importance to explain key drivers of the model
 - Subscription behavior analyzed across age groups, occupations, and call duration
 - Customer personas created for targeted marketing strategy
