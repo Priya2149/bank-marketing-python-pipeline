@@ -17,7 +17,6 @@ This project demonstrates:
 - **Confusion matrices, ROC curves, AUC scores**  
 - **Feature importance (RF/XGB) & SHAP explainability**  
 - A professional **Power BI dashboard** for business stakeholders  
-- GitHub-ready notebook structure  
 - End-to-end deliverable like a real analytics project  
 
 ---
@@ -88,6 +87,19 @@ Both achieved the highest **AUC**, strong precision/recall, and stable performan
 
 ---
 
+## Handling Imbalanced Data & Final Model Selection
+
+- The dataset is highly imbalanced (only ~11–12% subscribed).
+- Because of this, accuracy is not meaningful—a model predicting all “no” would still score ~88% accuracy.
+- Metrics like Precision, Recall, and F1-score were prioritized for evaluation.
+- F1-score was used as the key metric because it balances precision and recall for the minority class.
+
+---
+
+## Final Model Choice:
+- After hyperparameter tuning, **Tuned Random Forest** achieved the best overall **F1-score (0.66)** while maintaining a strong **AUC (0.95)**.
+- Therefore, **Tuned Random Forest was selected as the final model**, and its performance was added to the Power BI dashboard.
+
 ## Explainability
 
 ### Feature Importance  
@@ -106,6 +118,7 @@ Used to identify how individual features impact predictions.
 A professional two-page business dashboard was built:
 
 ### **Page 1 — Marketing Campaign Insights**
+![Dashboard Page 3](images/page1.jpg)
 - KPIs: Subscription rate, total customers, total subscribed  
 - Subscription rate by:  
   - Job  
@@ -116,11 +129,22 @@ A professional two-page business dashboard was built:
 - Campaign performance overview  
 
 ### **Page 2 — ML Model Performance**
+![Dashboard Page 3](images/page2.jpg)
 - Model comparison table  
 - AUC comparison  
 - ROC curve visual  
 - Confusion matrices  
 - Feature importance bar charts  
+
+---
+
+### Page 3 — Customer Insights & Model Explainability
+![Dashboard Page 3](images/page3.jpg)
+- SHAP feature importance to explain key drivers of the model
+- Subscription behavior analyzed across age groups, occupations, and call duration
+- Customer personas created for targeted marketing strategy
+- Relationship between contact method and conversion visualized
+- Actionable marketing recommendations based on model insights
 
 ---
 
